@@ -44,7 +44,7 @@ const App = () => {
 
   return (
     <div className='container'>
-      <h1>Log Search</h1>
+      <h1>Log query interface</h1>
     <div className="search-container">
       <input type="text" id="searchInput" placeholder="Search..."/>
       <button onClick={allogs}>Get All Logs</button>
